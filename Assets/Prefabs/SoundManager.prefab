@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   sfxAudioSource: {fileID: 2876476656412784920}
-  playerFootstepSoundSpeed: 2.5
+  playerFootstepSoundSpeed: 2
   playerFootstepAudioSource: {fileID: 1543493121817971412}
   playerFootstepSounds:
   - {fileID: 8300000, guid: b993df4a93c1d304ab19d8b2eb88c9a5, type: 3}

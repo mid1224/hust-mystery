@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] bool isMoving;
     [SerializeField] Vector2 moveDirection;
+    public bool disableMovement;
 
     [Header("Animation")]
     [SerializeField] Animator animator;
@@ -51,6 +52,13 @@ public class PlayerController : MonoBehaviour
     #region Movement
     private void HandleMovement()
     {
+        if (disableMovement == true)
+        {
+            moveDirection = Vector2.zero;
+            isMoving = false;
+            return;
+        }
+
         moveDirection = input.Player.Move.ReadValue<Vector2>();
 
         if (moveDirection.sqrMagnitude > 1f)
