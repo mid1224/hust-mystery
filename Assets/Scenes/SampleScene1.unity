@@ -40814,6 +40814,32 @@ MonoBehaviour:
             ch\xECa kh\xF3a..."
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 211137698}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "M\xECnh l\u1EA5y \u0111\u01B0\u1EE3c m\u1ED9t chi\u1EBFc
+            ch\xECa kh\xF3a..."
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1799550813}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "M\xECnh l\u1EA5y \u0111\u01B0\u1EE3c m\u1ED9t chi\u1EBFc
+            ch\xECa kh\xF3a..."
+          m_BoolArgument: 1
+        m_CallState: 2
   destroyAfterTrigger: 1
   requireItem: 0
   requiredItemName: 
