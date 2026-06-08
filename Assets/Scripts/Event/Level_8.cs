@@ -6,16 +6,17 @@ public class Level_8 : MonoBehaviour
 {
     private PlayerController playerController;
     private RoomTransitionEffect roomTransitionEffect;
-    private Dialogue dialogue;
 
     [Header("Event 1")]
     [SerializeField] PlayableDirector openingCutsence;
     [SerializeField] float openingCutsenceLength;
+    [SerializeField] Transform playerSpawnPos1;
 
     [Header("Event 2")]
     [SerializeField] GameObject[] triggersToDisable;
     [SerializeField] PlayableDirector interactWithDoorCutsence;
     [SerializeField] float interactWithDoorCutsenceDuration;
+    [SerializeField] Transform playerSpawnPos2;
 
     void Awake()
     {
@@ -25,6 +26,9 @@ public class Level_8 : MonoBehaviour
 
     void Start()
     {
+        openingCutsence.gameObject.SetActive(false);
+        interactWithDoorCutsence.gameObject.SetActive(false);
+
         StartEvent1();
     }
 
@@ -35,8 +39,11 @@ public class Level_8 : MonoBehaviour
 
     IEnumerator Event1Coroutine()
     {
+        playerController.transform.position = playerSpawnPos1.position;
+
         playerController.gameObject.SetActive(false);
 
+        openingCutsence.gameObject.SetActive(true);
         openingCutsence.Play();
 
         yield return new WaitForSeconds(openingCutsenceLength);
@@ -65,8 +72,11 @@ public class Level_8 : MonoBehaviour
 
     IEnumerator Event2_InteractWithDoorCoroutine()
     {
+        playerController.transform.position = playerSpawnPos2.position;
+
         playerController.gameObject.SetActive(false);
 
+        interactWithDoorCutsence.gameObject.SetActive(true);
         interactWithDoorCutsence.Play();
 
         yield return new WaitForSeconds(interactWithDoorCutsenceDuration);
@@ -75,6 +85,8 @@ public class Level_8 : MonoBehaviour
         {
             trigger.SetActive(true);
         }
+
+        interactWithDoorCutsence.gameObject.SetActive(false);
 
         playerController.gameObject.SetActive(true);
 
