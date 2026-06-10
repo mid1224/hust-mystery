@@ -4,8 +4,10 @@ public class Inventory : MonoBehaviour
 {
     public static Inventory Instance { get; private set; }
 
-    [SerializeField] bool key_stairToSeventhFloor;
+    [SerializeField] bool key_UtilityRoom;
+    [SerializeField] bool keycard;
     [SerializeField] bool flashlight;
+    [SerializeField] bool key_Stair;
 
     // One bool per item. False = not in inventory, True = in inventory.
 
@@ -25,36 +27,60 @@ public class Inventory : MonoBehaviour
     {
         if (itemName == "Key_StairToSeventhFloor")
         {
-            key_stairToSeventhFloor = true;
+            key_Stair = true;
         }
         if (itemName == "Flashlight")
         {
             flashlight = true;
         }
-        // 
+        if (itemName == "Key_UtilityRoom")
+        {
+            key_UtilityRoom = true;
+        }
+        if (itemName == "Keycard")
+        {
+            keycard = true;
+        }
+
     }
 
     public void RemoveItem(string itemName)
     {
-        if (itemName == "Key_StairToSeventhFloor")
+        if (itemName == "Key_Stair")
         {
-            key_stairToSeventhFloor = false;
+            key_Stair = false;
         }
         if (itemName == "Flashlight")
         {
             flashlight = false;
         }
+        if (itemName == "Keycard")
+        {
+            keycard = false;
+        }
+        if (itemName == "Key_UtilityRoom")
+        {
+            key_UtilityRoom = false;
+        }
     }
 
     public bool HasItem(string itemName)
     {
-        if (itemName == "Key_StairToSeventhFloor")
+        if (itemName == "Key_Stair")
         {
-            return key_stairToSeventhFloor;
+            return key_Stair;
         }
         if (itemName == "Flashlight")
         {
             return flashlight;
+        }
+        if (itemName == "Keycard")
+        {
+            return keycard;
+        }
+        if (itemName == "Key_UtilityRoom")
+        {
+            return key_UtilityRoom;
         }
 
         return false;

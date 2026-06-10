@@ -48,6 +48,11 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(DisplayDialogue(text, 2f));
     }
 
+    public void CreateLongDialogue(string text)
+    {
+        StartCoroutine(DisplayDialogue(text, 4f));
+    }
+
     IEnumerator DisplayDialogue(string text, float duration)
     {
         dialogueContainer.SetActive(true);

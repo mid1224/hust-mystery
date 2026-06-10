@@ -9,6 +9,8 @@ public class RoomTransitionEffect : MonoBehaviour
     [SerializeField] float pitchBlackDuration = 1f;
     [SerializeField] float fadeDuration = 1.5f;
 
+    private Coroutine currentTransitionCoroutine;
+
     private void Awake()
     {
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -16,7 +18,12 @@ public class RoomTransitionEffect : MonoBehaviour
 
     public void PlayRoomTransitionEffect()
     {
-        StartCoroutine(RoomTransitionCoroutine());
+        if (currentTransitionCoroutine != null)
+        {
+            StopCoroutine(currentTransitionCoroutine);
+        }
+
+        currentTransitionCoroutine = StartCoroutine(RoomTransitionCoroutine());
     }
 
     IEnumerator RoomTransitionCoroutine()

@@ -5,6 +5,8 @@ public class InteractSystem : MonoBehaviour
     private InputSystem_Actions input;
 
     [SerializeField] InteractTrigger currentTrigger;
+    [SerializeField] float interactCooldown = 0.5f;
+    private float lastInteractTime = 0f;
 
     private void Awake()
     {
@@ -25,7 +27,7 @@ public class InteractSystem : MonoBehaviour
     {
         if (currentTrigger != null)
         {
-            if (input.Player.Interact.WasPressedThisFrame())
+            if (input.Player.Interact.WasPressedThisFrame() && CanInteract())
             {
                 Interact();
             }
@@ -40,5 +42,11 @@ public class InteractSystem : MonoBehaviour
     private void Interact()
     {
         currentTrigger.TriggerEvent();
+        lastInteractTime = Time.time;
+    }
+
+    private bool CanInteract()
+    {
+        return Time.time >= lastInteractTime + interactCooldown;
     }
 }

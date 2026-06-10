@@ -112,4 +112,13 @@ public class PlayerController : MonoBehaviour
         }
     }
     #endregion
+
+    public void DisableMovement()
+    {
+        disableMovement = true;
+    }
+    public void EnableMovement()
+    {
+        disableMovement = false;
+    }
 }
