@@ -13,6 +13,7 @@ public class Level_8 : MonoBehaviour
     [SerializeField] PlayableDirector openingCutsence;
     [SerializeField] float openingCutsenceLength;
     [SerializeField] Transform playerSpawnPos1;
+    [SerializeField] GameObject[] objectsToDisableEvent1;
 
     [Header("Event 2")]
     [SerializeField] GameObject event2Container;
@@ -53,6 +54,11 @@ public class Level_8 : MonoBehaviour
 
     IEnumerator Event1Coroutine()
     {
+        foreach (GameObject obj in objectsToDisableEvent1)
+        {
+            obj.SetActive(false);
+        }
+
         playerController.transform.position = playerSpawnPos1.position;
 
         playerController.gameObject.SetActive(false);
@@ -69,6 +75,13 @@ public class Level_8 : MonoBehaviour
         roomTransitionEffect.PlayRoomTransitionEffect();
 
         event1Container.SetActive(false);
+
+        MissionTracker.Instance.SetCurrentMission("Đi về nhà.");
+
+        foreach (GameObject obj in objectsToDisableEvent1)
+        {
+            obj.SetActive(true);
+        }
 
         StartEvent2();
     }
@@ -112,6 +125,8 @@ public class Level_8 : MonoBehaviour
 
         event2Container.SetActive(false);
 
+        MissionTracker.Instance.SetCurrentMission("Tìm chìa khóa cầu thang.");
+
         StartEvent3();
     }
 
@@ -138,11 +153,11 @@ public class Level_8 : MonoBehaviour
     {
         if (active == true)
         {
-            globalLight.color = new Color(0.2f, 0.2f, 0.2f);  // Dark
+            globalLight.intensity = 0.01f;
         }
         else
         {
-            globalLight.color = new Color(1f, 1f, 1f);  // Bright/normal
+            globalLight.intensity = 0.75f;
         }
     }
 }

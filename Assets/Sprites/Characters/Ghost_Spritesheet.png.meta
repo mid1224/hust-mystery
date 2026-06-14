@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ac7031967da3bbc458edce05d9cb0299
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5540620847007472785
+    second: Ghost_Spritesheet_0
+  - first:
+      213: -1926720578528653888
+    second: Ghost_Spritesheet_1
+  - first:
+      213: -7431738959079940407
+    second: Ghost_Spritesheet_2
+  - first:
+      213: -7378522772935437031
+    second: Ghost_Spritesheet_3
+  - first:
+      213: -7090052448291891831
+    second: Ghost_Spritesheet_4
+  - first:
+      213: -6178268557530628925
+    second: Ghost_Spritesheet_5
+  - first:
+      213: 3671976470249106014
+    second: Ghost_Spritesheet_6
+  - first:
+      213: 1348919432848018977
+    second: Ghost_Spritesheet_7
+  - first:
+      213: 3246297957639474123
+    second: Ghost_Spritesheet_8
+  - first:
+      213: 1470723773388355295
+    second: Ghost_Spritesheet_9
+  - first:
+      213: -5223681803172454768
+    second: Ghost_Spritesheet_10
+  - first:
+      213: -3572664632316369815
+    second: Ghost_Spritesheet_11
+  - first:
+      213: -7572607422172444304
+    second: Ghost_Spritesheet_12
+  - first:
+      213: 4552118707135499344
+    second: Ghost_Spritesheet_13
+  - first:
+      213: 2900785299952059931
+    second: Ghost_Spritesheet_14
+  - first:
+      213: 8701918463318571135
+    second: Ghost_Spritesheet_15
+  - first:
+      213: 9196393366239063640
+    second: Ghost_Spritesheet_16
+  - first:
+      213: -4808582983651683959
+    second: Ghost_Spritesheet_17
+  - first:
+      213: 2296084899317284269
+    second: Ghost_Spritesheet_18
+  - first:
+      213: -4315183427542444087
+    second: Ghost_Spritesheet_19
+  - first:
+      213: 144301524497879705
+    second: Ghost_Spritesheet_20
+  - first:
+      213: -1372204643559495641
+    second: Ghost_Spritesheet_21
+  - first:
+      213: 5397093628556148474
+    second: Ghost_Spritesheet_22
+  - first:
+      213: -4081987070003788219
+    second: Ghost_Spritesheet_23
+  - first:
+      213: -3617602172526331920
+    second: Ghost_Spritesheet_24
+  - first:
+      213: -5223033614309669516
+    second: Ghost_Spritesheet_25
+  - first:
+      213: -7253023639847120863
+    second: Ghost_Spritesheet_26
+  - first:
+      213: 2888349596451866035
+    second: Ghost_Spritesheet_27
+  - first:
+      213: -5520610830980030755
+    second: Ghost_Spritesheet_28
+  - first:
+      213: -1362526646197218456
+    second: Ghost_Spritesheet_29
+  - first:
+      213: 2808084609376864877
+    second: Ghost_Spritesheet_30
+  - first:
+      213: 4562306584662954847
+    second: Ghost_Spritesheet_31
+  - first:
+      213: -5820542580511567789
+    second: Ghost_Spritesheet_32
+  - first:
+      213: 1012850016404288135
+    second: Ghost_Spritesheet_33
+  - first:
+      213: 572054943801599782
+    second: Ghost_Spritesheet_34
+  - first:
+      213: -1991839008919862595
+    second: Ghost_Spritesheet_35
+  - first:
+      213: 4391417659166702598
+    second: Ghost_Spritesheet_36
+  - first:
+      213: 6025948987184664654
+    second: Ghost_Spritesheet_37
+  - first:
+      213: -7679953255800552683
+    second: Ghost_Spritesheet_38
+  - first:
+      213: -4660074415657669679
+    second: Ghost_Spritesheet_39
+  - first:
+      213: -714864017515405445
+    second: Ghost_Spritesheet_40
+  - first:
+      213: 1643382752809144082
+    second: Ghost_Spritesheet_41
+  - first:
+      213: -2153041937378157402
+    second: Ghost_Spritesheet_42
+  - first:
+      213: 3395929360278027063
+    second: Ghost_Spritesheet_43
+  - first:
+      213: -6488910204520952450
+    second: Ghost_Spritesheet_44
+  - first:
+      213: -4126461652275385082
+    second: Ghost_Spritesheet_45
+  - first:
+      213: -5803546595229906240
+    second: Ghost_Spritesheet_46
+  - first:
+      213: 1907003404141531624
+    second: Ghost_Spritesheet_47
+  - first:
+      213: 978874753929444149
+    second: Ghost_Spritesheet_48
+  - first:
+      213: 5278540343659892772
+    second: Ghost_Spritesheet_49
+  - first:
+      213: -1468783279666107903
+    second: Ghost_Spritesheet_50
+  - first:
+      213: 9064819639660312032
+    second: Ghost_Spritesheet_51
+  - first:
+      213: 7391789320270731998
+    second: Ghost_Spritesheet_52
+  - first:
+      213: 322908721639434317
+    second: Ghost_Spritesheet_53
+  - first:
+      213: -4953121498112979552
+    second: Ghost_Spritesheet_54
+  - first:
+      213: 1522814245062221371
+    second: Ghost_Spritesheet_55
+  - first:
+      213: -6156278702469896868
+    second: Ghost_Spritesheet_56
+  - first:
+      213: 8639222432194742814
+    second: Ghost_Spritesheet_57
+  - first:
+      213: -6863065082209690282
+    second: Ghost_Spritesheet_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 675
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c110d0e4d34ec40800000000000000
+      internalID: 5540620847007472785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 675
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9855cacecd21b9d90800000000000000
+      internalID: -7090052448291891831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_2
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 675
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccfb651b71624aa0800000000000000
+      internalID: -6178268557530628925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_3
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 675
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a6acc052b75f230800000000000000
+      internalID: 3671976470249106014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_4
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 675
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e0789c31358b210800000000000000
+      internalID: 1348919432848018977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_5
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 678
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb4d28faca2d0d20800000000000000
+      internalID: 3246297957639474123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_0
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 483
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09edb368311c187b0800000000000000
+      internalID: -5223681803172454768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_3
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 483
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9646e2912785b6ec0800000000000000
+      internalID: -3572664632316369815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 483
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cc83298df5c2f30800000000000000
+      internalID: 4552118707135499344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_2
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 483
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16415d7cd8a14820800000000000000
+      internalID: 2900785299952059931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_4
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 483
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadf1fdfc055ddf10800000000000000
+      internalID: 2296084899317284269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 234
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475c521c99e0487b0800000000000000
+      internalID: -5223033614309669516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_7
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 234
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120d66f7d65185b90800000000000000
+      internalID: -7253023639847120863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_8
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 234
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b508a3a7aa751820800000000000000
+      internalID: 2888349596451866035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_9
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 234
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dded24cd2b9d263b0800000000000000
+      internalID: -5520610830980030755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_10
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 234
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8631968fb35571de0800000000000000
+      internalID: -1362526646197218456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 42
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ae77b9365dd9be0800000000000000
+      internalID: -1468783279666107903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_6
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 41
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad00af7d3af24bb0800000000000000
+      internalID: -4953121498112979552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_7
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 43
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55aaf03321809aa0800000000000000
+      internalID: -6156278702469896868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Death_8
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 42
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1acd8e870fa4e770800000000000000
+      internalID: 8639222432194742814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5cdd18567c4f0b940837926bb8906ce2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ghost_0: 5540620847007472785
+      Ghost_1: -7090052448291891831
+      Ghost_10: -1362526646197218456
+      Ghost_2: -6178268557530628925
+      Ghost_3: 3671976470249106014
+      Ghost_4: 1348919432848018977
+      Ghost_5: 3246297957639474123
+      Ghost_6: -5223033614309669516
+      Ghost_7: -7253023639847120863
+      Ghost_8: 2888349596451866035
+      Ghost_9: -5520610830980030755
+      Ghost_Death_0: -5223681803172454768
+      Ghost_Death_1: 4552118707135499344
+      Ghost_Death_2: 2900785299952059931
+      Ghost_Death_3: -3572664632316369815
+      Ghost_Death_4: 2296084899317284269
+      Ghost_Death_5: -1468783279666107903
+      Ghost_Death_6: -4953121498112979552
+      Ghost_Death_7: -6156278702469896868
+      Ghost_Death_8: 8639222432194742814
+      Ghost_Death_9: -6863065082209690282
+      Ghost_Spritesheet_1: -1926720578528653888
+      Ghost_Spritesheet_12: -7572607422172444304
+      Ghost_Spritesheet_15: 8701918463318571135
+      Ghost_Spritesheet_16: 9196393366239063640
+      Ghost_Spritesheet_17: -4808582983651683959
+      Ghost_Spritesheet_19: -4315183427542444087
+      Ghost_Spritesheet_2: -7431738959079940407
+      Ghost_Spritesheet_20: 144301524497879705
+      Ghost_Spritesheet_21: -1372204643559495641
+      Ghost_Spritesheet_22: 5397093628556148474
+      Ghost_Spritesheet_23: -4081987070003788219
+      Ghost_Spritesheet_24: -3617602172526331920
+      Ghost_Spritesheet_3: -7378522772935437031
+      Ghost_Spritesheet_30: 2808084609376864877
+      Ghost_Spritesheet_31: 4562306584662954847
+      Ghost_Spritesheet_32: -5820542580511567789
+      Ghost_Spritesheet_33: 1012850016404288135
+      Ghost_Spritesheet_34: 572054943801599782
+      Ghost_Spritesheet_35: -1991839008919862595
+      Ghost_Spritesheet_36: 4391417659166702598
+      Ghost_Spritesheet_37: 6025948987184664654
+      Ghost_Spritesheet_38: -7679953255800552683
+      Ghost_Spritesheet_39: -4660074415657669679
+      Ghost_Spritesheet_40: -714864017515405445
+      Ghost_Spritesheet_41: 1643382752809144082
+      Ghost_Spritesheet_42: -2153041937378157402
+      Ghost_Spritesheet_43: 3395929360278027063
+      Ghost_Spritesheet_44: -6488910204520952450
+      Ghost_Spritesheet_45: -4126461652275385082
+      Ghost_Spritesheet_46: -5803546595229906240
+      Ghost_Spritesheet_47: 1907003404141531624
+      Ghost_Spritesheet_48: 978874753929444149
+      Ghost_Spritesheet_49: 5278540343659892772
+      Ghost_Spritesheet_51: 9064819639660312032
+      Ghost_Spritesheet_52: 7391789320270731998
+      Ghost_Spritesheet_53: 322908721639434317
+      Ghost_Spritesheet_55: 1522814245062221371
+      Ghost_Spritesheet_9: 1470723773388355295
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
