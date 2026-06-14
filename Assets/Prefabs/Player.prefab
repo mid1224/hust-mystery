@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3a5408eb29b0941926227a1f05fbca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 2
+  moveSpeed: 2.5
   isMoving: 0
   moveDirection: {x: 0, y: 0}
   disableMovement: 0
@@ -328,6 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractSystem
   currentTrigger: {fileID: 0}
+  interactCooldown: 0.5
 --- !u!1 &8824120149367267189
 GameObject:
   m_ObjectHideFlags: 0

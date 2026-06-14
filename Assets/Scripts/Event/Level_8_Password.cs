@@ -30,6 +30,8 @@ public class Level_8_Password : MonoBehaviour
         triggerToDisable.SetActive(false);
         triggerToEnable.SetActive(true);
 
+        playerController.disableMovement = false;
+
         gameObject.SetActive(false);
     }
 }

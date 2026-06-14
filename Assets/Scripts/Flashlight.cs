@@ -10,6 +10,9 @@ public class Flashlight : MonoBehaviour
     [SerializeField] AudioClip toggleOnSound;
     [SerializeField] AudioClip toggleOffSound;
 
+    // Public property to check if flashlight is enabled
+    public bool IsEnabled => lightSource.enabled;
+
     void Awake()
     {
         soundManager = FindFirstObjectByType<SoundManager>();

@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(string itemName)
     {
-        if (itemName == "Key_StairToSeventhFloor")
+        if (itemName == "Key_Stair")
         {
             key_Stair = true;
         }

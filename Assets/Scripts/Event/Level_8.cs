@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Rendering.Universal;
 
 public class Level_8 : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class Level_8 : MonoBehaviour
     [Header("Event 3")]
     [SerializeField] GameObject event3Container;
     [SerializeField] GameObject[] objectsToDisableEvent3;
+    [SerializeField] GameObject enterLab2NoLightTrigger;
+    [SerializeField] GameObject enterLab2Trigger;
+    [SerializeField] Light2D globalLight;
 
     void Awake()
     {
@@ -118,6 +122,27 @@ public class Level_8 : MonoBehaviour
         foreach (GameObject obj in objectsToDisableEvent3)
         {
             obj.SetActive(false);
+        }
+
+        enterLab2NoLightTrigger.SetActive(true);
+        enterLab2Trigger.SetActive(false);
+    }
+
+    public void HasFlashlight()
+    {
+        enterLab2NoLightTrigger.SetActive(false);
+        enterLab2Trigger.SetActive(true);
+    }
+
+    public void SetDarkScreen(bool active)
+    {
+        if (active == true)
+        {
+            globalLight.color = new Color(0.2f, 0.2f, 0.2f);  // Dark
+        }
+        else
+        {
+            globalLight.color = new Color(1f, 1f, 1f);  // Bright/normal
         }
     }
 }
