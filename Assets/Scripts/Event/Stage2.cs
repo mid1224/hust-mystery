@@ -149,6 +149,10 @@ public class Stage2 : MonoBehaviour
 
     private void StartEvent3()
     {
+        event3Container.SetActive(true);
+
+        MissionTracker.Instance.SetCurrentMission("Dùng thang máy để trốn thoát.");
+
         interactElectricalBoxTrigger.SetActive(false);
 
         tryElevatorTrigger.SetActive(false);
