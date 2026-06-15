@@ -42912,6 +42912,7 @@ MonoBehaviour:
   insideElevatorCutscene: {fileID: 0}
   tryElevatorTrigger: {fileID: 1271290084}
   enterElevatorTrigger: {fileID: 724478476}
+  flashlightObj: {fileID: 7573205451880223092}
 --- !u!1 &1210320260
 GameObject:
   m_ObjectHideFlags: 0

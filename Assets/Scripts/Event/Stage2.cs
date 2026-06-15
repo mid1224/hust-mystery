@@ -26,6 +26,8 @@ public class Stage2 : MonoBehaviour
     [SerializeField] GameObject tryElevatorTrigger;
     [SerializeField] GameObject enterElevatorTrigger;
 
+    public Flashlight flashlightObj;
+
     void Awake()
     {
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -84,6 +86,8 @@ public class Stage2 : MonoBehaviour
         {
             obj.SetActive(true);
         }
+
+        flashlightObj.batterySlider.gameObject.SetActive(true);
 
         StartEvent2();
     }
