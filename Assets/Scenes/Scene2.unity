@@ -42906,7 +42906,7 @@ MonoBehaviour:
   objectsToDisableEvent1: []
   interactElectricalBoxTrigger: {fileID: 805510067}
   fuseLeft: 3
-  ghostSpawner: {fileID: 0}
+  ghostSpawner: {fileID: 1489748438}
   event3Container: {fileID: 415131525}
   lightOnCutscene: {fileID: 0}
   insideElevatorCutscene: {fileID: 0}

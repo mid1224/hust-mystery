@@ -54,6 +54,8 @@ public class Stage2 : MonoBehaviour
 
     IEnumerator Event1Coroutine()
     {
+        Inventory.Instance.AddItem("Flashlight");
+
         foreach (GameObject obj in objectsToDisableEvent1)
         {
             obj.SetActive(false);

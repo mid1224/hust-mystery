@@ -34,7 +34,6 @@ public class Inventory : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Keep inventory across scenes
     }
 
     void Start()

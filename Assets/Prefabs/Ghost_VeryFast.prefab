@@ -290,9 +290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e03d556dc1fccf4e89b0adda54b7811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ghost
-  baseSpeed: 4
+  baseSpeed: 3
   slowedSpeed: 0.3
-  timeToDestroy: 2
+  timeToDestroy: 1
   animator: {fileID: 2118205904575300374}
   vanishAnimationDuration: 1
   spriteRenderer: {fileID: 6562544242331678372}

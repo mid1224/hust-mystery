@@ -18,7 +18,6 @@ public class Dialogue : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Keep across scenes
     }
 
     void Start()
