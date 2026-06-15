@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadScene(int index)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(index);
     }
 }
