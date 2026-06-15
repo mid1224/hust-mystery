@@ -79715,67 +79715,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1001 &6093312194804259668
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.261
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.511
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226871846534973374, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7404695387937366957, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_Name
-      value: Ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 7404695387937366957, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 308081ae123eeb2439103061dac42fcb, type: 3}
 --- !u!114 &6893129765687217317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80122,6 +80061,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4986157699144632166, guid: 29aa6a8579fd4b34ba0d156e04bcd7f5, type: 3}
+      propertyPath: maxBattery
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986157699144632166, guid: 29aa6a8579fd4b34ba0d156e04bcd7f5, type: 3}
       propertyPath: batterySlider
       value: 
       objectReference: {fileID: 1397250037}
@@ -80353,6 +80296,5 @@ SceneRoots:
   - {fileID: 51728644}
   - {fileID: 355932066}
   - {fileID: 1209468135}
-  - {fileID: 6093312194804259668}
   - {fileID: 1900948555}
   - {fileID: 5967338445616475811}
