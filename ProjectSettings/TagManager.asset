@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ghost
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
   - Ghost

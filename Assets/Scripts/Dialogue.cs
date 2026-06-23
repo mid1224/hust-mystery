@@ -9,6 +9,8 @@ public class Dialogue : MonoBehaviour
     [SerializeField] GameObject dialogueContainer;
     [SerializeField] TextMeshProUGUI dialogueText;
 
+    private Coroutine dialogueCoroutine;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -39,7 +41,12 @@ public class Dialogue : MonoBehaviour
             return;
         }
 
-        StartCoroutine(DisplayDialogue(text, duration));
+        if (dialogueCoroutine != null)
+        {
+            StopCoroutine(dialogueCoroutine);
+        }
+
+        dialogueCoroutine = StartCoroutine(DisplayDialogue(text, duration));
     }
 
     public void CreateShortDialogue(string text)

@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private Collider2D playerCollider;
     private InputSystem_Actions input;
     private SoundManager soundManager;
     private Flashlight flashlight;
@@ -12,7 +14,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] bool isMoving;
     [SerializeField] Vector2 moveDirection;
+    private Vector2 lastFacingDirection = Vector2.down;
+
     public bool disableMovement;
+
+    [Header("Jump Settings")]
+    [SerializeField] float jumpDuration = 0.5f;
+    [SerializeField] float jumpHeight = 1.5f;
+    private bool isJumping;
 
     [Header("Animation")]
     [SerializeField] Animator animator;
@@ -20,6 +29,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
         input = new InputSystem_Actions();
 
         soundManager = FindFirstObjectByType<SoundManager>();
@@ -38,14 +48,17 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (isJumping) return;
+
         HandleMovement();
         HandleFlashlight();
-
         AnimateMovement();
     }
 
     private void FixedUpdate()
     {
+        if (isJumping) return;
+
         Move();
     }
 
@@ -70,6 +83,7 @@ public class PlayerController : MonoBehaviour
 
         if (isMoving)
         {
+            lastFacingDirection = moveDirection.normalized;
             soundManager.PlayFootsteps();
         }
     }
@@ -77,9 +91,57 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.linearVelocity = moveDirection * moveSpeed;
-        //Debug.Log($"Move Direction: {moveDirection}, Velocity: {rb.linearVelocity}");
     }
 
+    #endregion
+
+    #region Jump Mechanic
+
+    // --> CHANGED: Renamed method and hardcoded Vector2.left <--
+    public void JumpLeft(float jumpDistance)
+    {
+        if (!isJumping)
+        {
+            // Calculate the landing spot: Current Position + (Left * Distance)
+            Vector2 targetPosition = (Vector2)transform.position + (Vector2.left * jumpDistance);
+            StartCoroutine(JumpRoutine(targetPosition));
+        }
+    }
+
+    private IEnumerator JumpRoutine(Vector2 targetPosition)
+    {
+        isJumping = true;
+        DisableMovement();
+        rb.linearVelocity = Vector2.zero;
+
+        if (playerCollider != null) playerCollider.enabled = false;
+
+        animator.SetBool("IsJumping", true);
+
+        Vector2 startPosition = transform.position;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < jumpDuration)
+        {
+            float t = elapsedTime / jumpDuration;
+
+            Vector2 currentBasePos = Vector2.Lerp(startPosition, targetPosition, t);
+            float heightOffset = 4f * jumpHeight * t * (1f - t);
+
+            transform.position = new Vector3(currentBasePos.x, currentBasePos.y + heightOffset, transform.position.z);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = new Vector3(targetPosition.x, targetPosition.y, transform.position.z);
+
+        animator.SetBool("IsJumping", false);
+        if (playerCollider != null) playerCollider.enabled = true;
+
+        isJumping = false;
+        EnableMovement();
+    }
     #endregion
 
     #region Flashlight
@@ -90,10 +152,7 @@ public class PlayerController : MonoBehaviour
             flashlight.ToggleFlashlight();
         }
 
-        if (isMoving)
-        {
-            flashlight.SetFlashlightDirection(moveDirection);
-        }
+        flashlight.AimWithMouse();
     }
     #endregion
 

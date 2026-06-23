@@ -34,4 +34,14 @@ public class Level_8_Password : MonoBehaviour
 
         gameObject.SetActive(false);
     }
+
+    public void EnterNumber(int number)
+    {
+        textInput.text += number;
+    }
+
+    public void Delete()
+    {
+        textInput.text = "";
+    }
 }

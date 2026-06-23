@@ -14,67 +14,128 @@ public class PlayerStats : MonoBehaviour
     public float flashSpeed = 0.1f;
     private bool isInvulnerable = false;
 
-    public SpriteRenderer spriteRenderer;
+    [Header("Jumpscare")]
+    public GameObject jumpscareVideo;
+    public float jumpscareDuration = 1f;
 
+    [Header("UI Screens")]
+    public GameObject endgameScreen; // <-- New variable for your Game Over UI
+
+    [Header("References")]
+    public SpriteRenderer spriteRenderer;
     public GameObject[] healthIcons;
 
     void Start()
     {
         currentLives = startingLives;
-
         UpdateHealthIcons();
+
+        // Ensure screens start turned off
+        if (jumpscareVideo != null)
+        {
+            jumpscareVideo.SetActive(false);
+        }
+
+        if (endgameScreen != null)
+        {
+            endgameScreen.SetActive(false);
+        }
     }
 
-    // Use OnTriggerEnter2D if your Ghost collider is set to "Is Trigger"
-    // If it is a solid physics collider, use OnCollisionEnter2D(Collision2D collision) instead.
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // 1. Check if we hit a ghost and aren't already flashing/invincible
+        // Don't do anything if we are already dead
+        if (currentLives <= 0) return;
+
         if (collision.CompareTag("Ghost") && !isInvulnerable)
         {
-            Debug.Log("Called");
+            // 1. Play the jumpscare and wipe the map
+            StartCoroutine(PlayJumpscare());
 
+            // 2. Take damage
             TakeDamage();
 
-            // 2. Destroy the ghost instantly upon touching the player.
-            // (Note: If you want to use the Ghost's vanish animation instead, 
-            // you will need to change 'private void Vanish()' to 'public void Vanish()' 
-            // in Ghost.cs, and call it here using collision.GetComponent<Ghost>().Vanish();)
+            // 3. Vanish the ghost that hit us
             collision.gameObject.GetComponent<Ghost>().Vanish();
+        }
+
+        if (collision.CompareTag("Boss"))
+        {
+            currentLives = 0;
+            StartCoroutine(PlayJumpscare());
+        }
+    }
+
+    private IEnumerator PlayJumpscare()
+    {
+        // Turn on the video
+        if (jumpscareVideo != null)
+        {
+            jumpscareVideo.SetActive(true);
+        }
+
+        // Find ALL other ghosts on the map and tell them to vanish
+        Ghost[] allGhosts = FindObjectsByType<Ghost>(FindObjectsSortMode.None);
+        foreach (Ghost ghost in allGhosts)
+        {
+            if (ghost != null)
+            {
+                ghost.Vanish();
+            }
+        }
+
+        // Wait for the video to play
+        yield return new WaitForSeconds(jumpscareDuration);
+
+        // Turn the video off
+        if (jumpscareVideo != null)
+        {
+            jumpscareVideo.SetActive(false);
+        }
+
+        // --- NEW LOGIC: Check for Game Over AFTER the jumpscare finishes ---
+        if (currentLives <= 0)
+        {
+            GameOver();
         }
     }
 
     public void TakeDamage()
     {
-        if (isInvulnerable) return;
+        if (isInvulnerable || currentLives <= 0) return;
 
         currentLives--;
 
         UpdateHealthIcons();
 
-        if (currentLives <= 0)
+        // Only start the invulnerability flashing if we are still alive
+        if (currentLives > 0)
         {
-            currentLives = 0;
-            GameOver();
-        }
-        else
-        {
-            // Start the flashing effect and invulnerability timer
             StartCoroutine(DamageRoutine());
         }
     }
 
     public void RestoreLife()
     {
-        currentLives++;
-
-        UpdateHealthIcons();
+        if (currentLives < startingLives)
+        {
+            currentLives++;
+            UpdateHealthIcons();
+        }
     }
 
     private void GameOver()
     {
-        // Empty method for you to tackle later!
         Debug.Log("Game Over! 0 lives remaining.");
+
+        // Turn on your Endgame Screen!
+        if (endgameScreen != null)
+        {
+            endgameScreen.SetActive(true);
+        }
+
+        // Completely freeze the game in the background so nothing else can happen
+        Time.timeScale = 0f;
     }
 
     private IEnumerator DamageRoutine()
@@ -83,20 +144,16 @@ public class PlayerStats : MonoBehaviour
 
         float elapsedTime = 0f;
 
-        // Loop until our invulnerability time is up
         while (elapsedTime < invulnerabilityTime)
         {
-            // Toggle alpha between 100% (1f) and 20% (0.2f)
             Color c = spriteRenderer.color;
             c.a = (c.a == 1f) ? 0.2f : 1f;
             spriteRenderer.color = c;
 
-            // Wait for a fraction of a second before looping again
             yield return new WaitForSeconds(flashSpeed);
             elapsedTime += flashSpeed;
         }
 
-        // Ensure the sprite is fully visible when the flashing ends
         Color finalColor = spriteRenderer.color;
         finalColor.a = 1f;
         spriteRenderer.color = finalColor;

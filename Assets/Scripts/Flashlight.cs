@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using UnityEngine.UI; // Required for the Slider
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class Flashlight : MonoBehaviour
 {
     private SoundManager soundManager;
+    private Camera mainCamera;
 
     [SerializeField] Light2D lightSource;
     [SerializeField] AudioClip toggleOnSound;
@@ -12,11 +14,8 @@ public class Flashlight : MonoBehaviour
 
     [Header("Battery Settings")]
     public float maxBattery = 100f;
-
     public float drainRate = 15f;
-
     public float regenRate = 5f;
-
     private float currentBattery;
 
     [Header("UI")]
@@ -27,7 +26,8 @@ public class Flashlight : MonoBehaviour
     void Awake()
     {
         soundManager = FindFirstObjectByType<SoundManager>();
-        currentBattery = maxBattery; // Start with a full battery
+        mainCamera = Camera.main;
+        currentBattery = maxBattery;
     }
 
     void Start()
@@ -50,10 +50,8 @@ public class Flashlight : MonoBehaviour
     {
         if (IsEnabled)
         {
-            // Drain the battery over time
             currentBattery -= drainRate * Time.deltaTime;
 
-            // Force the flashlight off if the battery dies
             if (currentBattery <= 0)
             {
                 currentBattery = 0;
@@ -62,12 +60,10 @@ public class Flashlight : MonoBehaviour
         }
         else
         {
-            // Regenerate the battery over time if it isn't full
             if (currentBattery < maxBattery)
             {
                 currentBattery += regenRate * Time.deltaTime;
 
-                // Cap it at maxBattery so it doesn't overcharge
                 if (currentBattery > maxBattery)
                 {
                     currentBattery = maxBattery;
@@ -91,7 +87,6 @@ public class Flashlight : MonoBehaviour
     {
         if (batterySlider != null && batterySlider.gameObject.activeSelf == true)
         {
-            // We use normalized value (0 to 1) so it works regardless of maxBattery size
             batterySlider.value = currentBattery / maxBattery;
         }
     }
@@ -103,10 +98,8 @@ public class Flashlight : MonoBehaviour
             return;
         }
 
-        // Prevent turning on if the battery is completely dead
         if (!IsEnabled && currentBattery <= 0)
         {
-            // Optional: Play a "dead flashlight click" sound here
             return;
         }
 
@@ -114,16 +107,29 @@ public class Flashlight : MonoBehaviour
         lightSource.enabled = !lightSource.enabled;
     }
 
-    public void SetFlashlightDirection(Vector2 direction)
+    // --- UPDATED: Removed the facing direction parameter and simplified the math ---
+    public void AimWithMouse()
     {
         if (lightSource.enabled == false)
         {
             return;
         }
 
-        direction = direction.normalized;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
-        lightSource.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        if (Mouse.current == null) return;
+
+        // 1. Get the mouse position
+        Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
+        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(mouseScreenPos);
+        mouseWorldPos.z = 0f;
+
+        // 2. Get the direction from the flashlight to the mouse
+        Vector2 aimDirection = (mouseWorldPos - lightSource.transform.position).normalized;
+
+        // 3. Convert direction directly to an angle
+        float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+
+        // 4. Apply rotation directly (subtracting 90 for Light2D's natural 'Up' alignment)
+        lightSource.transform.rotation = Quaternion.Euler(0f, 0f, aimAngle - 90f);
     }
 
     private void ProcessLightBeam()
@@ -154,11 +160,10 @@ public class Flashlight : MonoBehaviour
         return angle <= (lightSource.pointLightOuterAngle / 2f);
     }
 
-    // --- NEW METHOD: Increase Max Battery ---
     public void IncreaseMaxBattery(float amount)
     {
         maxBattery += amount;
-        currentBattery += amount; // Immediately give them the new juice
+        currentBattery += amount;
         UpdateUI();
     }
 }

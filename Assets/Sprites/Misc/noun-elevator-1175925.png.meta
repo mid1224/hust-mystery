@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 9ba23b744b174754289f754e8ee1d1de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9075244289152063913
+    second: noun-elevator-1175925_0
+  - first:
+      213: -8233770115988531470
+    second: noun-elevator-1175925_1
+  - first:
+      213: -1026826708650032172
+    second: noun-elevator-1175925_2
+  - first:
+      213: -619156075450286629
+    second: noun-elevator-1175925_3
+  - first:
+      213: 952172940762398408
+    second: noun-elevator-1175925_4
+  - first:
+      213: 4659335683950097496
+    second: noun-elevator-1175925_5
+  - first:
+      213: -3265736637764726304
+    second: noun-elevator-1175925_6
+  - first:
+      213: -4727020950044844991
+    second: noun-elevator-1175925_7
+  - first:
+      213: 5736616108151678678
+    second: noun-elevator-1175925_8
+  - first:
+      213: -4971489699797968000
+    second: noun-elevator-1175925_9
+  - first:
+      213: 118867072453734388
+    second: noun-elevator-1175925_10
+  - first:
+      213: 7284545333999698123
+    second: noun-elevator-1175925_11
+  - first:
+      213: 5745399442456683428
+    second: noun-elevator-1175925_12
+  - first:
+      213: -5571489613582285434
+    second: noun-elevator-1175925_13
+  - first:
+      213: 7968765237965304295
+    second: noun-elevator-1175925_14
+  - first:
+      213: -2953865279790513108
+    second: noun-elevator-1175925_15
+  - first:
+      213: 8092267729947471573
+    second: noun-elevator-1175925_16
+  - first:
+      213: -3806226919446592054
+    second: noun-elevator-1175925_17
+  - first:
+      213: 4688102730282182461
+    second: noun-elevator-1175925_18
+  - first:
+      213: -1184370002599459749
+    second: noun-elevator-1175925_19
+  - first:
+      213: 4280138661594192697
+    second: noun-elevator-1175925_20
+  - first:
+      213: -2216337250817774809
+    second: noun-elevator-1175925_21
+  - first:
+      213: -8510448992250830234
+    second: noun-elevator-1175925_22
+  - first:
+      213: -5617460688896072635
+    second: noun-elevator-1175925_23
+  - first:
+      213: -5393694234570539527
+    second: noun-elevator-1175925_24
+  - first:
+      213: -861850162399808250
+    second: noun-elevator-1175925_25
+  - first:
+      213: -7055712598689745062
+    second: noun-elevator-1175925_26
+  - first:
+      213: -2907392972900732128
+    second: noun-elevator-1175925_27
+  - first:
+      213: -7662429766481604834
+    second: noun-elevator-1175925_28
+  - first:
+      213: -7629900038968568340
+    second: noun-elevator-1175925_29
+  - first:
+      213: 3589207749696796482
+    second: noun-elevator-1175925_30
+  - first:
+      213: 6466313622952747939
+    second: noun-elevator-1175925_31
+  - first:
+      213: -4665585768099382555
+    second: noun-elevator-1175925_32
+  - first:
+      213: -8861051314025714417
+    second: noun-elevator-1175925_33
+  - first:
+      213: -8597664026203267722
+    second: noun-elevator-1175925_34
+  - first:
+      213: 873534039209046123
+    second: noun-elevator-1175925_35
+  - first:
+      213: 6200769996264990544
+    second: noun-elevator-1175925_36
+  - first:
+      213: 7023483092509295469
+    second: noun-elevator-1175925_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noun-elevator-1175925_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 603
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a91dc8299eb1fd70800000000000000
+      internalID: 9075244289152063913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 603
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6d64234b5cbbd80800000000000000
+      internalID: -8233770115988531470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 603
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d308018c8affb1f0800000000000000
+      internalID: -1026826708650032172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 171
+        width: 302
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddb24e64d05867f0800000000000000
+      internalID: -619156075450286629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_4
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 405
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb1eaae3cc63d00800000000000000
+      internalID: 952172940762398408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_5
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 354
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854b52b4e1949a040800000000000000
+      internalID: 4659335683950097496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e11e00a4d5cda2d0800000000000000
+      internalID: -3265736637764726304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c5fb2ad7f366eb0800000000000000
+      internalID: -4727020950044844991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d62a2bd4fd8c9f40800000000000000
+      internalID: 5736616108151678678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 67
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b57074578b10bb0800000000000000
+      internalID: -4971489699797968000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff681df8fc46a100800000000000000
+      internalID: 118867072453734388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 67
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc00847d267e71560800000000000000
+      internalID: 7284545333999698123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 67
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3ab5c3a52cbbf40800000000000000
+      internalID: 5745399442456683428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 62
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68546a827b71ea2b0800000000000000
+      internalID: -5571489613582285434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 67
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1376b73cdb69e60800000000000000
+      internalID: 7968765237965304295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c240ab3ad23c107d0800000000000000
+      internalID: -2953865279790513108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 62
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de20ee20a28d4070800000000000000
+      internalID: 8092267729947471573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac54bd378c09d2bc0800000000000000
+      internalID: -3806226919446592054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 67
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d372205389c7f0140800000000000000
+      internalID: 4688102730282182461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 67
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b544e68f1c5409fe0800000000000000
+      internalID: -1184370002599459749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 67
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bdcb18f6b166b30800000000000000
+      internalID: 4280138661594192697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 67
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b6a86530dfd31e0800000000000000
+      internalID: -2216337250817774809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_22
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662eec95bbfc4e980800000000000000
+      internalID: -8510448992250830234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 67
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544e0aa1445ca02b0800000000000000
+      internalID: -5617460688896072635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdb951bbafb525b0800000000000000
+      internalID: -5393694234570539527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 41
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605fb84f7d71a04f0800000000000000
+      internalID: -861850162399808250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 41
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5779d536c2151e90800000000000000
+      internalID: -7055712598689745062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023f8c3ce7dd6a7d0800000000000000
+      internalID: -2907392972900732128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 41
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f0c7489b499a590800000000000000
+      internalID: -7662429766481604834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce51a89e6562d1690800000000000000
+      internalID: -7629900038968568340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 41
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247b1c19e6d6fc130800000000000000
+      internalID: 3589207749696796482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 41
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a32e56eaf5fcb950800000000000000
+      internalID: 6466313622952747939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 41
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea71579672804fb0800000000000000
+      internalID: -4665585768099382555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 41
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d2dfa17c8370580800000000000000
+      internalID: -8861051314025714417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 36
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ddffbde16fea880800000000000000
+      internalID: -8597664026203267722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60744a949a6f1c00800000000000000
+      internalID: 873534039209046123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0576641657f8d0650800000000000000
+      internalID: 6200769996264990544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-elevator-1175925_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 41
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d638afe19ac687160800000000000000
+      internalID: 7023483092509295469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      noun-elevator-1175925_0: 9075244289152063913
+      noun-elevator-1175925_1: -8233770115988531470
+      noun-elevator-1175925_10: 118867072453734388
+      noun-elevator-1175925_11: 7284545333999698123
+      noun-elevator-1175925_12: 5745399442456683428
+      noun-elevator-1175925_13: -5571489613582285434
+      noun-elevator-1175925_14: 7968765237965304295
+      noun-elevator-1175925_15: -2953865279790513108
+      noun-elevator-1175925_16: 8092267729947471573
+      noun-elevator-1175925_17: -3806226919446592054
+      noun-elevator-1175925_18: 4688102730282182461
+      noun-elevator-1175925_19: -1184370002599459749
+      noun-elevator-1175925_2: -1026826708650032172
+      noun-elevator-1175925_20: 4280138661594192697
+      noun-elevator-1175925_21: -2216337250817774809
+      noun-elevator-1175925_22: -8510448992250830234
+      noun-elevator-1175925_23: -5617460688896072635
+      noun-elevator-1175925_24: -5393694234570539527
+      noun-elevator-1175925_25: -861850162399808250
+      noun-elevator-1175925_26: -7055712598689745062
+      noun-elevator-1175925_27: -2907392972900732128
+      noun-elevator-1175925_28: -7662429766481604834
+      noun-elevator-1175925_29: -7629900038968568340
+      noun-elevator-1175925_3: -619156075450286629
+      noun-elevator-1175925_30: 3589207749696796482
+      noun-elevator-1175925_31: 6466313622952747939
+      noun-elevator-1175925_32: -4665585768099382555
+      noun-elevator-1175925_33: -8861051314025714417
+      noun-elevator-1175925_34: -8597664026203267722
+      noun-elevator-1175925_35: 873534039209046123
+      noun-elevator-1175925_36: 6200769996264990544
+      noun-elevator-1175925_37: 7023483092509295469
+      noun-elevator-1175925_4: 952172940762398408
+      noun-elevator-1175925_5: 4659335683950097496
+      noun-elevator-1175925_6: -3265736637764726304
+      noun-elevator-1175925_7: -4727020950044844991
+      noun-elevator-1175925_8: 5736616108151678678
+      noun-elevator-1175925_9: -4971489699797968000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

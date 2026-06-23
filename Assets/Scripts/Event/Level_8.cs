@@ -14,6 +14,7 @@ public class Level_8 : MonoBehaviour
     [SerializeField] float openingCutsenceLength;
     [SerializeField] Transform playerSpawnPos1;
     [SerializeField] GameObject[] objectsToDisableEvent1;
+    [SerializeField] Tutorial tutorial;
 
     [Header("Event 2")]
     [SerializeField] GameObject event2Container;
@@ -82,6 +83,8 @@ public class Level_8 : MonoBehaviour
         {
             obj.SetActive(true);
         }
+
+        tutorial.ShowTutorial1();
 
         StartEvent2();
     }

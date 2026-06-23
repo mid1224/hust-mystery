@@ -13,6 +13,7 @@ public class Stage2 : MonoBehaviour
     [SerializeField] float openingCutsenceLength;
     [SerializeField] Transform playerSpawnPos1;
     [SerializeField] GameObject[] objectsToDisableEvent1;
+    [SerializeField] Tutorial tutorial;
 
     [Header("Event2")]
     [SerializeField] GameObject interactElectricalBoxTrigger;
@@ -88,6 +89,8 @@ public class Stage2 : MonoBehaviour
         }
 
         flashlightObj.batterySlider.gameObject.SetActive(true);
+
+        tutorial.ShowTutorial3();
 
         StartEvent2();
     }
