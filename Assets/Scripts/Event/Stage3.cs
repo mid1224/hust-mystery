@@ -15,6 +15,8 @@ public class Stage3 : MonoBehaviour
 
     [SerializeField] Light2D globalLight;
 
+    [SerializeField] GameObject flashlightTutorial;
+
     [SerializeField] AudioSource music;
 
     [SerializeField] GameObject finalBoss;
@@ -69,11 +71,26 @@ public class Stage3 : MonoBehaviour
 
     public void LightsOff()
     {
-        globalLight.enabled = false;
+        globalLight.intensity = 0;
+
+        ShowFlashlightTutorialTemp();
     }
 
     public void LightsOn()
     {
-        globalLight.enabled = true;
+        globalLight.intensity = 0.75f;
+    }
+
+    public void ShowFlashlightTutorialTemp()
+    {
+        StartCoroutine(ShowFlashlightTutorialCoroutine());
+    }
+    IEnumerator ShowFlashlightTutorialCoroutine()
+    {
+        flashlightTutorial.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+
+        flashlightTutorial.SetActive(false);
     }
 }

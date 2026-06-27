@@ -17,6 +17,7 @@ public class PlayerStats : MonoBehaviour
     [Header("Jumpscare")]
     public GameObject jumpscareVideo;
     public float jumpscareDuration = 1f;
+    public AudioSource finalBossMusic;
 
     [Header("UI Screens")]
     public GameObject endgameScreen; // <-- New variable for your Game Over UI
@@ -68,6 +69,11 @@ public class PlayerStats : MonoBehaviour
 
     private IEnumerator PlayJumpscare()
     {
+        if (finalBossMusic != null)
+        {
+            finalBossMusic.enabled = false;
+        }
+
         // Turn on the video
         if (jumpscareVideo != null)
         {

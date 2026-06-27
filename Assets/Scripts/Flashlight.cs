@@ -7,6 +7,7 @@ public class Flashlight : MonoBehaviour
 {
     private SoundManager soundManager;
     private Camera mainCamera;
+    [SerializeField] PauseMenu pauseMenu;
 
     [SerializeField] Light2D lightSource;
     [SerializeField] AudioClip toggleOnSound;
@@ -110,7 +111,7 @@ public class Flashlight : MonoBehaviour
     // --- UPDATED: Removed the facing direction parameter and simplified the math ---
     public void AimWithMouse()
     {
-        if (lightSource.enabled == false)
+        if (lightSource.enabled == false || pauseMenu.isPausing == true)
         {
             return;
         }
