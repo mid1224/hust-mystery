@@ -31034,6 +31034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 573768221}
   - component: {fileID: 573768222}
+  - component: {fileID: 573768223}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -31090,6 +31091,19 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &573768223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573768220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f906a4e62f457034aaa3160516a1776b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoPlayerWebGLFix
+  videoFileName: smile-glitch.mp4
 --- !u!4 &574313028 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: c5e7789a132b35e479aea9d2b9cee89c, type: 3}

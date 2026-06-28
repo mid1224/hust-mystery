@@ -379,6 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26965490}
   - component: {fileID: 26965489}
+  - component: {fileID: 26965491}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -435,6 +436,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342788829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &26965491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26965488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f906a4e62f457034aaa3160516a1776b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoPlayerWebGLFix
+  videoFileName: smile-glitch.mp4
 --- !u!1 &36251585
 GameObject:
   m_ObjectHideFlags: 0
@@ -66944,6 +66958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620312674}
   - component: {fileID: 1620312675}
+  - component: {fileID: 1620312676}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -67000,6 +67015,19 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1620312676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620312673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f906a4e62f457034aaa3160516a1776b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoPlayerWebGLFix
+  videoFileName: smile-glitch.mp4
 --- !u!1 &1641789012
 GameObject:
   m_ObjectHideFlags: 0

@@ -158,6 +158,8 @@ public class Stage2 : MonoBehaviour
 
     private void StartEvent3()
     {
+        Dialogue.Instance.CreateShortDialogue("Gắn đủ cầu chì rồi! Đi ra thang máy thôi!");
+
         event3Container.SetActive(true);
 
         MissionTracker.Instance.SetCurrentMission("Dùng thang máy để trốn thoát.");
