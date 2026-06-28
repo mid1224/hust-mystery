@@ -51,12 +51,12 @@ public class Dialogue : MonoBehaviour
 
     public void CreateShortDialogue(string text)
     {
-        StartCoroutine(DisplayDialogue(text, 2f));
+        CreateDialogue(text, 2f);
     }
 
     public void CreateLongDialogue(string text)
     {
-        StartCoroutine(DisplayDialogue(text, 4f));
+        CreateDialogue(text, 4f);
     }
 
     IEnumerator DisplayDialogue(string text, float duration)

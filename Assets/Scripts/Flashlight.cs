@@ -8,6 +8,7 @@ public class Flashlight : MonoBehaviour
     private SoundManager soundManager;
     private Camera mainCamera;
     [SerializeField] PauseMenu pauseMenu;
+    [SerializeField] GameObject passwordWindow;
 
     [SerializeField] Light2D lightSource;
     [SerializeField] AudioClip toggleOnSound;
@@ -94,6 +95,11 @@ public class Flashlight : MonoBehaviour
 
     public void ToggleFlashlight()
     {
+        if (pauseMenu.isPausing == true || (passwordWindow != null && passwordWindow.activeSelf == true))
+        {
+            return;
+        }
+
         if (Inventory.Instance.HasItem("Flashlight") == false)
         {
             return;

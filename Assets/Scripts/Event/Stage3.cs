@@ -71,14 +71,14 @@ public class Stage3 : MonoBehaviour
 
     public void LightsOff()
     {
-        globalLight.intensity = 0;
+        globalLight.intensity = 0.05f;
 
         ShowFlashlightTutorialTemp();
     }
 
     public void LightsOn()
     {
-        globalLight.intensity = 0.75f;
+        globalLight.intensity = 0.9f;
     }
 
     public void ShowFlashlightTutorialTemp()
