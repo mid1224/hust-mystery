@@ -21,6 +21,8 @@ public class Stage3 : MonoBehaviour
 
     [SerializeField] GameObject finalBoss;
 
+    public Flashlight flashlightObj;
+
     void Awake()
     {
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -61,6 +63,8 @@ public class Stage3 : MonoBehaviour
         playerController.gameObject.SetActive(true);
 
         event1Container.SetActive(false);
+
+        flashlightObj.batterySlider.gameObject.SetActive(true);
 
         MissionTracker.Instance.SetCurrentMission("CHẠY!");
 
